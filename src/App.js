@@ -1,11 +1,15 @@
-import './App.css';
+import './App.css'
+import Navbar from './components/Navbar'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello React</h1>
+      <Router>
+        <Navbar />
+      </Router>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
