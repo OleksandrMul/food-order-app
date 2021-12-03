@@ -16,14 +16,14 @@ function Navbar() {
         <img src={logo} />
         <div className="hiddenLinks">
           <Link to="/">Home</Link>
-          <Link to="/">Menu</Link>
+          <Link to="/menu">Menu</Link>
           <Link to="/">About</Link>
           <Link to="/">Contact</Link>
         </div>
       </div>
       <div className="rightSide">
         <Link to="/">Home</Link>
-        <Link to="/">Menu</Link>
+        <Link to="/menu">Menu</Link>
         <Link to="/">About</Link>
         <Link to="/">Contact</Link>
         <button onClick={Click}>
